@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>KidDO App</title>
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_io/favicon-32x32.png">  
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon_io/site.webmanifest">  
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono%7cPT+Serif:400,400i%7cLato:100,300,400,700,800,900" rel="stylesheet">
+    <link href="assets/lib/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/lib/lightbox2/css/lightbox.min.css" rel="stylesheet">
+    <link href="assets/css/theme.css" rel="stylesheet">
+  </head>
+
+  <body class="has-sidemenu overflow-hidden-x has-sidemenu-left">
+
+   <!--===============================================-->
+    <!--    Fancynav-->
+    <!--===============================================-->
+    <nav class="fancynavbar fancynavbar-left" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-43},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}'
+      data-zanim-trigger="scroll" data-exclusive="true">
+      <div class="fancynavbar-togglerbar bg-black">
+        <a class="fancynavbar-brand" href="../index.html">
+          <img class="fancynavbar-brand-img" src="assets/img/logo.png" alt="" width="40" height="50" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"
+          />
+          <!--You can use icon or text logo as well-->
+          <!--<span class='fab fa-superpowers fs-3'></span>-->
+          <!--<span class='logo-sparrow'>S</span>--></a>
+        <div class="fancynavbar-toggler">
+          <svg class="fancynavbar-toggler-icon" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.5}' data-zanim-trigger="scroll">
+            <path id="path-top" d="M20,25c0,0,22,0,30,0c16,0,18.89,40.71-.15,21.75C38.7,35.65,19.9,16.8,19.9,16.8"></path>
+            <path id="path-middle" d="M20,32h30"></path>
+            <path id="path-bottom" d="M19.9,46.98c0,0,18.8-18.85,29.95-29.95C68.89-1.92,66,38.78,50,38.78c-8,0-30,0-30,0"></path>
+          </svg>
+        </div>
+        <div class="fancynavbar-addon" data-zanim-lg='{"from":{"opacity":1,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll">
+          <a class="fancynavbar-addon-item" href="assets/file/Yiwen(Yvonne)Hou_2020.6.pdf"><span class="fab far fa-file-alt"></span></a>
+          <a class="fancynavbar-addon-item" href="#languageModal" data-toggle="modal"><span class="text-sans-serif ls font-weight-black fs--1 d-block">EN</span></a>
+        </div>
+      </div>
+      <div class="fancynavbar-collapse">
+        <ul class="fancynavbar-nav">
+          <li class="fancynav-item">
+            <a class="fancynav-link" href="../index.html"><span class="fancynav-link-content">About Me</span></a>
+          </li>
+          <li class="fancynav-item">
+            <a class="fancynav-link" href="portfolio.html"><span class="fancynav-link-content">Portfolio</span></a>
+          </li>
+          <li class="fancynav-item">
+            <a class="fancynav-link" href="accessibility.html"><span class="fancynav-link-content">Accessibility</span></a>
+          </li>
+          <li class="fancynav-item">
+            <a class="fancynav-link" href="assets/file/Yiwen(Yvonne)Hou_2020.6.pdf" target="_blank"><span class="fancynav-link-content">Resume</span></a>
+          </li>
+          <li class="fancynav-item">
+            <a class="fancynav-link" href="contact.html"><span class="fancynav-link-content">Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--===============================================-->
+    <!--    End of Fancynav-->
+    <!--===============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main min-vh-100" id="top">
+
+      <!-- ============================================-->
+      <!-- Preloader ==================================-->
+      <div class="preloader" id="preloader">
+        <div class="loader">
+          <div class="line-scale-pulse-out-rapid">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+      <!-- ============================================-->
+      <!-- End of Preloader ===========================-->
+
+     <!-- <section> begin ============================-->
+      <section class="text-center py-0 overflow-hidden" id="bicycle-cta">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col px-4">
+              <div class="position-relative overflow-hidden rounded">
+                <div class="bg-holder overlay parallax" style="background-image:url(assets/img/kiddo.png);" data-rellax-percentage="0.5"></div>
+                <!--/.bg-holder-->
+                <div class="position-relative py-8 py-md-11" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                  <h2 class="fs-4 text-white px-4 px-sm-0 display-4 mb-4" data-zanim-xs='{"delay":0.1}'>Acticity app for Homeparenting</h2>
+                  <div data-zanim-xs='{"delay":0.2}'>
+                    <a class="btn btn-light border-2x mt-3" href="https://drive.google.com/file/d/1f3BvMTHdhFhqsRqVfUuCITJEDwS5cxoF/view?usp=sharing" target="_blank">See Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+    
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="bg-white py-6 py-md-8" id="default-why-us">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 mb-2 mb-lg-5 text-center">
+              <h2 class="fs-3 fs-sm-4"><span class="text-underline">Problem Domain</span></h2>
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            <div class="col-sm-8 col-lg-4 text-lg-right mt-5 mt-lg-0 pr-lg-3 pr-xl-4">
+              <div class="overflow-hidden">
+                <p class="font-italic lead" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">During home isolation, parents have been increasingly stressed out about how to spend quality time with their young kids while keeping them motivated to learn.
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-8 col-lg-4 mt-4 mt-lg-0 px-lg-4">
+              <img class="w-100 rounded" src="assets/img/problem.png" alt="" data-zanim-xs='{"animation":"zoom-out","delay":0.1}' data-zanim-trigger="scroll" />
+            </div>
+            <div class="col-sm-8 col-lg-4 mt-5 mt-lg-0 pl-lg-3 pl-xl-4">
+              <div class="overflow-hidden">
+                <h4 class="mb-3" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">How might we offer educational and fun resources for kids during quarantine given that parents have difficulty finding quality online resources effectively?</h4>
+              </div>
+              <div class="overflow-hidden">
+              </div>
+            </div>
+          </div>
+               
+        </div>
+        <!-- end of .container-->
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+  <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section class="py-2 py-lg-8 text-center overflow-hidden" id="studio-funfact">
+          <div class="bg-holder overlay overlay-1 parallax" style="background-image:url(assets/img/bg.png);" data-rellax-percentage="0.5"></div>
+          <!--/.bg-holder-->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                <div class="text-white"><span class="text-sans-serif font-weight-bold display-4" data-countup="42">42</span>
+                  <p class="font-italic">Percent of Parents<br/><br/>
+                    Have Difficulty balancing work from home and parenting ( 4/5 on 1-5 difficulty scale )</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mt-3 mt-sm-0">
+                <div class="text-white"><span class="text-sans-serif font-weight-bold display-4" data-countup="53">53</span>
+                  <p class="font-italic">Percent of Parents<br/><br/>
+                    Kids get bored frequently ( 4/5 on 1- 5 frequency scale )</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mt-3 mt-lg-0">
+                <div class="text-white"><span class="text-sans-serif font-weight-bold display-4" data-countup="56">56</span>
+                  <p class="font-italic">Percent of Parents<br/><br/>
+                    Kids lack of motivation to learn from home</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6 mt-3 mt-lg-0">
+                <div class="text-white"><span class="text-sans-serif font-weight-bold display-4" data-countup="12">12</span>
+                  <p class="font-italic">Out of 38 respondents<br/><br/>
+                  reported "No resource" when being asked what current resource they use to homeparent.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+        <br/>
+        <br/>
+        <br/>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-sm-8 col-lg-6 text-lg-right mt-5 mt-lg-0 pr-lg-3 pr-xl-4">
+            <div class="overflow-hidden">
+              <img class="w-100 rounded" src="assets/img/kiddo-p1.png" alt="" data-zanim-xs='{"animation":"zoom-out","delay":0.1}' data-zanim-trigger="scroll" />
+            </div>
+          </div>
+          <div class="col-sm-8 col-lg-6 mt-4 mt-lg-0 px-lg-4">
+            <img class="w-100 rounded" src="assets/img/kiddo-p2.png" alt="" data-zanim-xs='{"animation":"zoom-out","delay":0.1}' data-zanim-trigger="scroll" />
+          </div>
+          <hr class="hr-short mt-5 border-300" />
+        </div>
+      
+
+    <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section id="default-pricing-plan" style="padding-bottom: 0.5rem;">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-6 mb-7 text-center">
+                <h2 class="fs-3 fs-sm-4 text-underline mb-3">Mission Statement</h2>
+                <p class="text-500 font-italic">We aspire to help parents with young kids ( elementary & below ) home-parenting during COVID-19 isolation by offering <a class="text-danger"><strong>customizable and quality activities for educational and recreational purposes.</strong></a></p>
+              </div>
+            </div>
+          </div>
+          <!-- end of .container-->
+        </section>
+        <hr class="hr-short mt-5 border-300" />
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section id="default-services">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 mb-5 mb-md-7 text-center">
+              <h2 class="fs-3 fs-sm-4"><span class="text-underline">Comparative Advantage</span></h2>
+              <p class="text-500 font-italic">Our team think there are 5 criteria that we value, and we compare them across other 4 strong competitors.<br/>
+                Together, KidDO’s comparative advantage formed <a class="text-danger"><strong>a balanced Pentagon</strong></a> by acing all 5 criterias.</p><br/><br/>
+              <img class="w-50 rounded" src="assets/img/CA.png" alt="" data-zanim-xs='{"animation":"zoom-out","delay":0.1}' data-zanim-trigger="scroll" />
+            </div>
+            <div class="col-lg-5 pr-lg-4 mb-4">
+              <div class="media" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                <div class="overflow-hidden">
+                  <img class="media-img mr-3 mr-sm-4" src="assets/img/icons/multi-purpose.svg" alt="" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                </div>
+                <div class="media-body">
+                  <div class="overflow-hidden">
+                    <h4 class="mb-2" data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>Onboarding Time</h4>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>As KidDO iterate, we added onboarding pages to familiarize first time users. There is also continue as guest option to avoid login/registration steps.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 pr-lg-4 mb-4">
+              <div class="media" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                <div class="overflow-hidden">
+                  <img class="media-img mr-3 mr-sm-4" src="assets/img/icons/icon-target.svg" alt="" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                </div>
+                <div class="media-body">
+                  <div class="overflow-hidden">
+                    <h4 class="mb-2" data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>Content Quality</h4>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Content is well-organized by home-parenting situated constraints and interests. It also has higher accessibility as we provide multimedia access to information, such as audio/video/text.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 pr-lg-4 mb-4">
+              <div class="media" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                <div class="overflow-hidden">
+                  <img class="media-img mr-3 mr-sm-4" src="assets/img/icons/favorites-button.svg" alt="" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                </div>
+                <div class="media-body">
+                  <div class="overflow-hidden">
+                    <h4 class="mb-2" data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>Information Architecture</h4>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Robust filtering system that allows customization as well as efficient content navigation.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 pr-lg-4 mb-4">
+              <div class="media" data-zanim-timeline="{}" data-zanim-trigger="scroll">
+                <div class="overflow-hidden">
+                  <img class="media-img mr-3 mr-sm-4" src="assets/img/icons/icon-line-chart.svg" alt="" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                </div>
+                <div class="media-body">
+                  <div class="overflow-hidden">
+                    <h4 class="mb-2" data-zanim-xs='{"delay":0.1,"animation":"slide-right"}'>Family-Friendly Aesthetics</h4>
+                  </div>
+                  <div class="overflow-hidden">
+                    <p data-zanim-xs='{"delay":0.2,"animation":"slide-right"}'>Moodboard and style-guide heavily guided our family-friendly aesthetics.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          </section>
+          <hr class="hr-short mt-5 border-300" />
+         
+          <section>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 mb-5 mb-md-7 text-center">
+                  <h2 class="fs-3 fs-sm-4"><span class="text-underline">Iterative Design Process</span></h2>
+                  <img src="assets/img/iterative.png" style="width: 80%;"  alt="" data-zanim-xs='{"animation":"zoom-out","delay":0.1}' data-zanim-trigger="scroll" /><br/>
+                  <a class="btn btn-outline-dark border-2x" href="https://docs.google.com/document/d/1m0a4Ea6y5UWANiCbHjRjz2sIeOFqSVJg-VlG9_LwQTQ/edit" target="_blank">See Testing Notes</a>
+               </div> 
+                  <img class="w-50 rounded" src="assets/img/kiddo sketch.png" alt="" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+                  <img class="w-50 rounded" src="assets/img/kiddo style.png" alt="" data-zanim-xs='{"delay":0.2,"animation":"slide-right"}' />
+              </div>
+            </div>
+                  <!-- end of .container-->
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+      <!-- ============================================-->
+      <!-- <HIFI section> begin ============================-->
+      <section class="border-top border-300" id="default-process" style="padding-bottom: 0.5rem;">
+        <div class="container">
+          <div class="row justify-content-center text-center mb-6">
+            <div class="col-lg-6">
+              <h2 class="fs-3 fs-sm-4 text-underline mb-3">High-Fi Screens &<br/> User Flow</h2>
+              <p class="text-500 font-italic">Our team adopted such iterative design process for our other key features as well, now let me walk you through them by demoing their key user interactions.</p>
+              <hr class="hr-short mt-5 border-300" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 pl-lg-7">
+              <div class="row align-items-end">
+                <div class="col-lg-6 order-lg-2 text-center">
+                  <img class="img-fluid" src="assets/img/onboarding.gif" alt="" width="60%" />
+                </div>
+                <div class="col-lg-6 border-lg-left border-lg-bottom border-300 pb-lg-8 mt-4 mt-lg-0 mb-8 mb-lg-0">
+                  <div class="process-item ml-6 ml-sm-8 ml-lg-6"><span class="process-item-number">01</span>
+                    <h3>Onboarding & Login Page</h3>
+                    <p>Since users have limited capacities of working memory and setting the priorities, we decided to use a onboarding process as quick insight for parents who are first time users to get familiar and confident with the app, providing Greetings, essential information, and boost engagement within the first interaction with KidDO.<br/><br/>
+                      As shown here in the gif, the login also has an option to continue as guest without registration, making the onboarding more accessible. 
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 border-lg-right border-lg-bottom border-300 text-center py-lg-8">
+                  <img class="img-fluid" src="assets/img/activity.gif" alt="" width="60%" />
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0 mb-8 mb-lg-0 my-lg-8">
+                  <div class="process-item ml-6 ml-sm-8 ml-lg-6"><span class="process-item-number">02</span>
+                    <h3>SideNav & Activity Page</h3>
+                    <p> This Gif here introduces the homepage which updates parents with feeds of recommended activities. The kid-friendly sidebar is achieved through the large accessible icons in sketch style.<br/><br/>
+                      Moves on to activity page, it sorts activities by type into two main categories: “for fun” and “learn” which can then be further filtered using tags.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 order-lg-2 text-center align-self-center">
+                  <img class="img-fluid" src="assets/img/activity detail.gif" alt="" width="60%" />
+                </div>
+                <div class="col-lg-6 border-lg-left border-lg-bottom border-300 py-lg-8 mt-4 mt-lg-0 mb-8 mb-lg-0">
+                  <div class="process-item ml-6 ml-sm-8 ml-lg-6"><span class="process-item-number">03</span>
+                    <h3>Activity Detail Page</h3>
+                    <p>The third key feature is activity detail and rating page. Parents are able to find important information such as time estimation to read, and multimedia instructions which includes audio and video options to help parents better focus on practicing the activity hands-free.<br/><br/> 
+                      Once parent completes the instructions, they are able to mark the activity as “finished” and rate it with number of stars and descriptive tags. A finished activity would then be automatically sorted to the “done” list in bookmark page.
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row overflow-hidden pb-1">
+                <div class="col-lg-6 border-lg-right border-300 text-center py-lg-8">
+                  <img class="img-fluid" src="assets/img/bookmark.gif" alt="" width="60%" />
+                </div>
+                <div class="col-lg-6 align-self-center mt-4 mt-lg-0 mt-lg-8">
+                  <div class="process-item process-item-last ml-6 ml-sm-8 ml-lg-6"><span class="process-item-number">04</span>
+                    <h3>Bookmark Page & Filter</h3>
+                    <p>Bookmark page can be easily accessed from the sidebar navigation. Parents are able to see which activities they have already completed and which they still have to do.<br/><br/>
+                      They have the option to filter activities to cater to their personal need, such as time constraints, number of children, children's age range, and with/without parental guidance.  
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+      </section>
+      <hr class="hr-short mt-5 border-300" />
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="text-center" id="default-members">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 col-xl-6">
+              <h2 class="fs-3 fs-sm-4 text-underline mb-3">meet the team</h2>
+              <p class="text-500 font-italic">Shout out to my teammates Garrett Crotty,Steven Lou, Kyu Young Eun, Jenson Jia who made this virtual design collaboration happened over zoom!</p>
+              <img src="assets/img/kiddo team.png" style="width: 100%;"  alt="" data-zanim-xs='{"animation":"zoom-out","delay":0.1}' data-zanim-trigger="scroll" />
+            </div>
+          </div>
+        </div>
+     </section>
+           
+ 
+
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+
+
+    <!-- ============================================-->
+      <!-- Pre-footer begin ===========================-->
+      <section class="py-4 text-sans-serif bg-dark" id="digital-socials">
+        <div class="container">
+          <div class="row mx-lg-4">
+            <div class="col-lg-3 pr-lg-5">
+              <h3 class="mb-3 text-300">Yiwen Hou</h3>
+              <p>User Experience Enthusiast.</p >
+            </div>
+            <div class="col-md-6 col-lg-4 pr-lg-6 ml-lg-auto mt-6 mt-lg-0">
+              <h4 class="mb-3 text-300">Socials</h4>
+              <a class="fs-2 mr-2 text-700" href="portfolio.html" target="_blank"><span class="fab fa-linkedin-in"></span></a >
+              <a class="fs-2 mr-2 text-700" href="https://www.facebook.com/yvonne.hou.94" target="_blank"><span class="fab fa-facebook-f"></span></a >
+              <a class="fs-2 mr-2 text-700" href="https://github.com/YvonneHou98" target="_blank"><span class="fab fa-github"></span></a >
+              <a class="fs-2 text-700" href="https://www.instagram.com/yvonnedoodle/" target="_blank"><span class="fab fa-instagram"></span></a >
+            </div>
+            <div class="col-md-3 col-lg-4 mt-6 mt-lg-0">
+              <h4 class="mb-3 text-300">Get in touch</h4>
+              <p class="mb-0"><span class="text-400">Tel:</span>
+                <a class="text-700" href="tel:8587367402">+1 (858)736-7402</a >
+              </p >
+              <p class="mb-0"><span class="text-400">Drop me an email:</span>
+                <a class="text-700" href="mailto:yvonnehou98@gmail.com">yvonnehou98@gmail.com</a >
+              </p >
+              <p class="mb-0"><span class="text-400">I am located at:</span>
+                <a class="text-700">San Diego, CA</a >
+              </p >
+            </div>
+          </div>
+        </div>
+        <!-- end of .container-->
+      </section>
+      <!-- Pre-footer close ===========================-->
+      <!-- ============================================-->
+  <!--===============================================-->
+    <!--    Footer-->
+    <!--===============================================-->
+    <a href="#top"><img src="assets/img/top.png" style="width: 100%;height:auto;"></a>
+
+    <!-- Cookie Notice-->
+    <div class="toast bg-dark text-white shadow-none notice" role="alert" data-options='{"autoShow":false,"showOnce":true,"cookieExpireTime":7200000}' data-autohide="false" aria-live="assertive" aria-atomic="true">
+      <div class="toast-body p-4">
+        <button class="close text-white text-shadow-none position-absolute t-0 r-0 p-2 mr-1 fs-1" type="button" data-dismiss="toast" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <div class="media">
+          <img class="mr-3" src="assets/img/icons/cookie-notice.png" width="50" alt="" />
+          <div class="media-body">
+            <p class="fs-0 ls text-sans-serif">Our site uses cookies. By continuing to use our site, you agree to our
+              <a class="text-white text-underline" href="components/sparrow/cookie-notice.html">Cookie Policy.</a>
+            </p>
+            <button class="btn btn-outline-light btn-sm text-uppercase border-700" type="button" data-dismiss="toast" aria-label="Close">Ok, I understand</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--===============================================-->
+    <!--    Modal for language selection-->
+    <!--===============================================-->
+    <!-- Modal-->
+    <div class="modal fade fade-in" id="languageModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xs mx-auto" role="document">
+        <div class="modal-content bg-black">
+          <div class="modal-body text-center p-0">
+            <button class="close text-white position-absolute t-0 r-0 times-icon mt-2 mr-2 p-2" type="button" data-dismiss="modal" aria-label="Close"></button>
+            <ul class="list-unstyled pl-0 my-0 py-4 text-sans-serif">
+              <li>
+                <a class="text-white font-weight-bold pt-1 d-block" href="home-default.html">English</a>
+              </li>
+              <li>
+                <a class="pt-1 d-block text-500" href="#">Français</a>
+              </li>
+              <li>
+                <a class="text-500 pt-1 d-block" href="page-rtl.html">عربى</a>
+              </li>
+              <li>
+                <a class="pt-1 d-block text-500" href="#">Deutsche</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/lib/loaders.css/loaders.css.js"></script>
+    <script src="assets/js/stickyfill.min.js"></script>
+    <script src="assets/lib/is_js/is.min.js"></script>
+    <script src="assets/lib/jtap/jquery.tap.js"></script>
+    <script src="assets/js/rellax.min.js"></script>
+    <script src="assets/lib/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/lib/owl.carousel/owl.carousel.js"></script>
+    <script src="assets/lib/lightbox2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js"></script>
+    <script src="assets/js/progressbar.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+  </body>
+
+</html>
